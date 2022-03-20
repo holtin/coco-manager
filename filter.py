@@ -141,7 +141,8 @@ class CocoFilter():
             'licenses': self.licenses,
             'images': self.new_images,
             'annotations': self.new_segmentations,
-            'categories': self.new_categories
+            'categories': self.coco['categories']
+            
         }
 
         # Write the JSON to a file
